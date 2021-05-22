@@ -1,0 +1,14 @@
+-- public.messages definition
+
+-- Drop table
+
+-- DROP TABLE public.messages;
+
+CREATE TABLE public.messages (
+	id serial NOT NULL,
+	message text NOT NULL,
+	created_date timestamp NOT NULL DEFAULT now(),
+	updated_date timestamp NOT NULL DEFAULT now(),
+	sent bool NOT NULL DEFAULT false,
+	CONSTRAINT messages_pk PRIMARY KEY (id)
+);
