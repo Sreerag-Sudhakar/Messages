@@ -1,10 +1,10 @@
 module.exports = {
     db: {
-        host: 'localhost',
-        user: 'postgres',
-        password: 'docker',
-        database: 'Messages',
-        port: '5433',
+        host: '<your-db-host>',
+        user: '<your-db-user>',
+        password: '<your-db-password>',
+        database: '<your-db-name>',
+        port: '<your-db-port>',
         ssl: false,
         schema: 'public'
     },
