@@ -1,0 +1,15 @@
+{
+  "name": "messages",
+  "version": "1.0.0",
+  "description": "Send messages to recipients based on priority",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js > log.txt"
+  },
+  "author": "Sreerag Sudhakar",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.6.0"
+  }
+}
